@@ -2,6 +2,9 @@
 class Assets {
   Assets._();
 
+  static const String imagesAzkarElsabahAndElmassa = 'assets/images/azkar_elsabah_and_elmassa.jpg';
+  static const String imagesElroqyaElshareya = 'assets/images/elroqya_elshareya.jpg';
+  static const String imagesElsebha = 'assets/images/elsebha.jpg';
   static const String imagesLogoAzkary = 'assets/images/logo_azkary.jpg';
 
 }
