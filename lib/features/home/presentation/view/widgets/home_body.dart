@@ -14,7 +14,7 @@ class HomeBody extends StatelessWidget {
     OptionModel(
         image: Assets.imagesAzkarElsabahAndElmassa,
         title: AppTexts.azkarElsabahAndElmassa,
-        detailWidget: const AkkarElsabahElmassaScreen()
+        detailWidget:  const AkkarElsabahElmassaScreen()
     ),
     OptionModel(
         image: Assets.imagesElroqyaElshareya,

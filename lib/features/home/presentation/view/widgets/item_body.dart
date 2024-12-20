@@ -24,10 +24,13 @@ class ItemBody extends StatelessWidget {
         ),
         child: Column(
           children: [
-            Image.asset(
-                width: 130,
-                height: 130,
-                optionModel.image
+            Hero(
+              tag: optionModel.title,
+              child: Image.asset(
+                  width: 130,
+                  height: 130,
+                  optionModel.image
+              ),
             ),
             const SizedBox(height: 10,),
             Text(
@@ -37,8 +40,8 @@ class ItemBody extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     fontSize: 15,
                   color: AppColors.green
-                )
-            )
+                ),
+            ),
           ],
         ),
       ),
