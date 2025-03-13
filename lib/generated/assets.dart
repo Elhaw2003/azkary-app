@@ -6,5 +6,6 @@ class Assets {
   static const String imagesElroqyaElshareya = 'assets/images/elroqya_elshareya.jpg';
   static const String imagesElsebha = 'assets/images/elsebha.jpg';
   static const String imagesLogoAzkary = 'assets/images/logo_azkary.jpg';
+  static const String imagesQuraan = 'assets/images/quraan.jpeg';
 
 }

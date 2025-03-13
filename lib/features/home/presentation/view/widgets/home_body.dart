@@ -1,4 +1,5 @@
 import 'package:azkary_app/core/utilities/app_texts.dart';
+import 'package:azkary_app/features/alquraan/presentation/view/quraan_screen.dart';
 import 'package:azkary_app/features/elrokya_elshareya/presentation/view/elrokya_elshareya_screen.dart';
 import 'package:azkary_app/features/elsebha/presentation/view/sepha_screen.dart';
 import 'package:azkary_app/features/home/data/models/option_model.dart';
@@ -25,6 +26,11 @@ class HomeBody extends StatelessWidget {
         image: Assets.imagesElsebha,
         title: AppTexts.elsebha,
         detailWidget: const SephaScreen()
+    ),
+    OptionModel(
+        image: Assets.imagesQuraan,
+        title: AppTexts.alquraan,
+        detailWidget:  const QuraanScreen()
     ),
   ];
   @override

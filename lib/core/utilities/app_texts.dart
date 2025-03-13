@@ -11,4 +11,6 @@ class AppTexts{
   static const String alk = "الله أكبر";
   static const String sp = "سبحان الله";
   static const String la = "لا إله إلا الله";
+  static const String alquraan = "القراّن الكريم";
+  static const String alayat = "الآيات";
 }
