@@ -1,6 +1,6 @@
 import 'package:azkary_app/core/utilities/app_texts.dart';
 import 'package:azkary_app/features/elrokya_elshareya/presentation/view/elrokya_elshareya_screen.dart';
-import 'package:azkary_app/features/elsebha/presentation/view/elsebha_screen.dart';
+import 'package:azkary_app/features/elsebha/presentation/view/sepha_screen.dart';
 import 'package:azkary_app/features/home/data/models/option_model.dart';
 import 'package:azkary_app/features/home/presentation/view/widgets/item_body.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +24,7 @@ class HomeBody extends StatelessWidget {
     OptionModel(
         image: Assets.imagesElsebha,
         title: AppTexts.elsebha,
-        detailWidget: const ElsebhaScreen()
+        detailWidget: const SephaScreen()
     ),
   ];
   @override
